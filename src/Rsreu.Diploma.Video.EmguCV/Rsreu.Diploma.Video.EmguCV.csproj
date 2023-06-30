@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.4.0.4061" />
+    <PackageReference Include="Emgu.CV.Bitmap" Version="4.4.0.4061" />
+    <PackageReference Include="Nito.Collections.Deque" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rsreu.Diploma.Extensions\Rsreu.Diploma.Extensions.csproj" />
+    <ProjectReference Include="..\Rsreu.Diploma.VideoProcessing.EmguCV\Rsreu.Diploma.VideoProcessing.EmguCV.csproj" />
+    <ProjectReference Include="..\Rsreu.Diploma.VideoProcessing\Rsreu.Diploma.VideoProcessing.csproj" />
+    <ProjectReference Include="..\Rsreu.Diploma.Video\Rsreu.Diploma.Video.csproj" />
+  </ItemGroup>
+
+</Project>

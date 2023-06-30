@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rsreu.Diploma.UI", "Rsreu.Diploma.UI\Rsreu.Diploma.UI.csproj", "{D43E13E5-430A-4898-A13C-690292E9CBB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rsreu.Diploma.Controls", "Rsreu.Diploma.Controls\Rsreu.Diploma.Controls.csproj", "{9C7AC785-72F2-4CE7-8354-B997D58699CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rsreu.Diploma.Video", "Rsreu.Diploma.Video\Rsreu.Diploma.Video.csproj", "{04777A93-31A3-4DB2-8B8C-669CC5618278}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rsreu.Diploma.Video.EmguCV", "Rsreu.Diploma.Video.EmguCV\Rsreu.Diploma.Video.EmguCV.csproj", "{49945D46-DF53-4A39-816B-7179641A2EE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rsreu.Diploma.Extensions", "Rsreu.Diploma.Extensions\Rsreu.Diploma.Extensions.csproj", "{2A703AE3-6610-4012-9B5D-048E511DC7E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C953547F-A6DE-4295-8E5F-51D83B327DB5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rsreu.Diploma.VideoProcessing", "Rsreu.Diploma.VideoProcessing\Rsreu.Diploma.VideoProcessing.csproj", "{EACCD453-3024-4940-BBEA-AC9CF2CF46FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rsreu.Diploma.VideoProcessing.EmguCV", "Rsreu.Diploma.VideoProcessing.EmguCV\Rsreu.Diploma.VideoProcessing.EmguCV.csproj", "{38386AD3-FDEB-4210-8137-6D22BB20E6E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D43E13E5-430A-4898-A13C-690292E9CBB9}.Debug|x64.ActiveCfg = Debug|x64
+		{D43E13E5-430A-4898-A13C-690292E9CBB9}.Debug|x64.Build.0 = Debug|x64
+		{D43E13E5-430A-4898-A13C-690292E9CBB9}.Release|x64.ActiveCfg = Release|x64
+		{D43E13E5-430A-4898-A13C-690292E9CBB9}.Release|x64.Build.0 = Release|x64
+		{9C7AC785-72F2-4CE7-8354-B997D58699CE}.Debug|x64.ActiveCfg = Debug|x64
+		{9C7AC785-72F2-4CE7-8354-B997D58699CE}.Debug|x64.Build.0 = Debug|x64
+		{9C7AC785-72F2-4CE7-8354-B997D58699CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{9C7AC785-72F2-4CE7-8354-B997D58699CE}.Release|x64.Build.0 = Release|Any CPU
+		{04777A93-31A3-4DB2-8B8C-669CC5618278}.Debug|x64.ActiveCfg = Debug|x64
+		{04777A93-31A3-4DB2-8B8C-669CC5618278}.Debug|x64.Build.0 = Debug|x64
+		{04777A93-31A3-4DB2-8B8C-669CC5618278}.Release|x64.ActiveCfg = Release|Any CPU
+		{04777A93-31A3-4DB2-8B8C-669CC5618278}.Release|x64.Build.0 = Release|Any CPU
+		{49945D46-DF53-4A39-816B-7179641A2EE4}.Debug|x64.ActiveCfg = Debug|x64
+		{49945D46-DF53-4A39-816B-7179641A2EE4}.Debug|x64.Build.0 = Debug|x64
+		{49945D46-DF53-4A39-816B-7179641A2EE4}.Release|x64.ActiveCfg = Release|Any CPU
+		{49945D46-DF53-4A39-816B-7179641A2EE4}.Release|x64.Build.0 = Release|Any CPU
+		{2A703AE3-6610-4012-9B5D-048E511DC7E4}.Debug|x64.ActiveCfg = Debug|x64
+		{2A703AE3-6610-4012-9B5D-048E511DC7E4}.Debug|x64.Build.0 = Debug|x64
+		{2A703AE3-6610-4012-9B5D-048E511DC7E4}.Release|x64.ActiveCfg = Release|Any CPU
+		{2A703AE3-6610-4012-9B5D-048E511DC7E4}.Release|x64.Build.0 = Release|Any CPU
+		{EACCD453-3024-4940-BBEA-AC9CF2CF46FE}.Debug|x64.ActiveCfg = Debug|x64
+		{EACCD453-3024-4940-BBEA-AC9CF2CF46FE}.Debug|x64.Build.0 = Debug|x64
+		{EACCD453-3024-4940-BBEA-AC9CF2CF46FE}.Release|x64.ActiveCfg = Release|Any CPU
+		{EACCD453-3024-4940-BBEA-AC9CF2CF46FE}.Release|x64.Build.0 = Release|Any CPU
+		{38386AD3-FDEB-4210-8137-6D22BB20E6E6}.Debug|x64.ActiveCfg = Debug|x64
+		{38386AD3-FDEB-4210-8137-6D22BB20E6E6}.Debug|x64.Build.0 = Debug|x64
+		{38386AD3-FDEB-4210-8137-6D22BB20E6E6}.Release|x64.ActiveCfg = Release|Any CPU
+		{38386AD3-FDEB-4210-8137-6D22BB20E6E6}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4B3FC9B-7808-42B5-AA58-022474C86CE0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.4.0.4061" />
+    <PackageReference Include="Emgu.CV.Bitmap" Version="4.4.0.4061" />
+    <PackageReference Include="Emgu.CV.runtime.windows.cuda" Version="4.4.0.4099" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rsreu.Diploma.Extensions\Rsreu.Diploma.Extensions.csproj" />
+    <ProjectReference Include="..\Rsreu.Diploma.VideoProcessing\Rsreu.Diploma.VideoProcessing.csproj" />
+  </ItemGroup>
+
+</Project>
